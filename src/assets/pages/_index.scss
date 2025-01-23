@@ -1,0 +1,43 @@
+.like img {
+  height: 350px;
+}
+
+.step-circle {
+  width: 125px;
+  height: 125px;
+  line-height: 125px;
+  @include mobile {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+  }
+}
+// 首頁
+.banner-home {
+  background-color: rgba(0, 0, 0, 0.35);
+  background-blend-mode: multiply;
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+.banner-home-text {
+  letter-spacing: 32px;
+  @include mobile {
+    letter-spacing: 10px;
+  }
+}
+
+.banner {
+  background-color: rgba(0, 0, 0, 0.35);
+  background-blend-mode: multiply;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+}
+.banner-text {
+  letter-spacing: 32px;
+}
+
+.text-wrapper {
+  white-space: pre-line;
+}

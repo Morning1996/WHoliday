@@ -1,0 +1,14 @@
+// 字體大小隨斷點更改
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-size":
+      map-merge(
+        map-get($utilities, "font-size"),
+        (
+          responsive: true,
+        )
+      ),
+  )
+);
+@import "bootstrap/scss/bootstrap";
