@@ -114,10 +114,10 @@ export default {
 
     <div v-else>
       <div class="text-center">
-        <h3>您目前沒有收藏的職缺，快去看看吧！</h3>
+        <h3 class="mb-24">您目前沒有收藏的職缺，快去看看吧！</h3>
         <router-link
           :to="`/products`"
-          class="btn btn-primary rounded-pill px-60 py-12 fw-bold"
+          class="btn btn-primary rounded-pill px-60 py-12 fw-bold mb-80"
           >瀏覽職缺</router-link
         >
       </div>

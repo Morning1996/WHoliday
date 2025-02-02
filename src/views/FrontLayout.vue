@@ -42,11 +42,7 @@ export default {
               >職缺推薦</router-link
             >
           </li>
-          <li class="nav-item">
-            <router-link :to="`/about`" class="nav-link" aria-current="page"
-              >關於我們</router-link
-            >
-          </li>
+
           <li class="nav-item">
             <a class="nav-link" href="#">常見問題</a>
           </li>
